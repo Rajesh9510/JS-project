@@ -1,0 +1,94 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background:rgb(0, 47, 46);
+}
+.app
+{
+    background-color: white;
+    width: 100%;
+    max-width: 600px;
+    padding: 40px;
+    margin-top: 100px;
+    margin: 100px auto 0px;
+    border-radius: 10px;
+    outline:  8px ridge rgba(254, 251, 255, 0.6);
+    border-radius: 2rem;
+}
+.app h1{
+    font-size: 25px;
+    color: rgb(3, 7, 2);
+    font-weight: 500;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+.quiz
+{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+.btn
+{
+    background: white;
+    color: black;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn:hover
+{
+    background:rgb(0, 64, 63) ;
+    color: white;
+    font-size: 18px; 
+}
+#next-btn
+{
+    background:rgb(0, 64, 63);
+    color: white;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+}
+#new-game-btn
+{
+    background:rgb(0, 64, 63);
+    color: white;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+}
+.twobtn
+{
+    display: flex;
+}
+
+#result
+{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
