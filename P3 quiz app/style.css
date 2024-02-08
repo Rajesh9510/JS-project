@@ -52,7 +52,7 @@ body
 .btn:hover
 {
     background:rgb(0, 64, 63) ;
-    color: white;
+    color: rgb(247, 245, 245);
     font-size: 18px; 
 }
 #next-btn

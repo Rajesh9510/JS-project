@@ -5,7 +5,7 @@ function addTask()
 {
     if(inputBox.value==='')
     {
-        alert("you must write something!");
+        alert("you must write something!!");
     }
     else
     {
