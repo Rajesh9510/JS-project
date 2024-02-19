@@ -58,7 +58,7 @@ body
 #next-btn
 {
     background:rgb(0, 64, 63);
-    color: white;
+    color: red;
     font-weight: 500;
     width: 150px;
     border: 0;
